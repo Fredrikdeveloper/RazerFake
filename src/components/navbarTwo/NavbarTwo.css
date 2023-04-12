@@ -1,0 +1,29 @@
+.nav-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #555;
+} .nav-2 p {
+    background: #555;
+    color: #fff;
+    font-size: 17px;
+    height: 50px;
+    letter-spacing: 1px;
+    padding: 25px 20px;
+    text-align: center;
+    width: 100%;
+
+} .nav-2 p a {
+    color: #fff;
+    text-decoration: none;
+} .nav-2 p a:hover {
+    color: #fff;
+   
+}
+@media screen and (max-width: 768px) {
+    .nav-2 p {
+     font-size: 12px;
+    
+    }
+}

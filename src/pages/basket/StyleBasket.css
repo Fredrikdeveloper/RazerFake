@@ -1,0 +1,125 @@
+.Basket-first__line {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+.Basket-first__line-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 2px solid gray;
+} .Basket-first__line-text h5 {
+    color: white;
+} .Basket-first__line-text h5:hover{
+    color: rgb(37, 206, 37);
+} 
+
+
+.Basket-bg {
+    background-color: black;
+}
+.basket-card {
+    display: flex;
+    border: 2px solid rgb(37, 206, 37);
+    width: 70%;
+    border-radius: 17px;
+    height: 177px;
+    align-items: center;
+    justify-content: space-between;
+} .basket-card p,button {
+    margin: 0;
+    padding: 0;
+} 
+.trash-bag {
+    padding: 20px;
+} 
+.trash-bag i {
+    color: white;
+    font-size: 30px;
+} .basket-card p {
+    color: white;
+} .basket-img {
+    padding: 20px;
+} .basket-img h6 {
+     color: white;
+} .basket-img img {
+    width: 130px;
+    border: 1px solid gray;
+    border-radius: 11px;
+} .basket-img img:hover {
+    border-color:  rgb(37, 206, 37);
+}
+.btn-Menues {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} .btn-Menues button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: white;
+} .btn-Menues p {
+    font-size: 20px;
+} 
+.basket-line {
+    border-bottom: 1px solid rgb(37, 206, 37);
+    width: 70%;
+    margin: 0 auto;
+} .basket-pricess {
+    display: flex;
+    justify-content: space-between;
+} 
+.empty-border {
+    display: grid;
+    place-items: center;
+    padding: 300px 0px;
+} .event-empty {
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    width: 300px;
+    border: 3px solid rgb(37, 206, 37);
+}
+.basket-white-text {
+    color: white;
+}
+.delete-all-card {
+    background: #44d62c;
+    border: none;
+    border-radius: 7px;
+    color: #000;
+    cursor: pointer;
+    font-family: Razer F5 Medium;
+    font-size: 17px;
+    font-weight: 700;
+    width: 60px;
+   margin: 20px 0px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+     .basket-line {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .basket-card {
+        width: 90%;
+    } .basket-line {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .Basket-first__line {
+        width: 95%;
+    }
+    .basket-card {
+        height: 150px;
+    }
+    .basket-img h6 {
+        display: none;
+    } .btn-Menues button {
+        color: rgb(37, 206, 37);
+    }
+}

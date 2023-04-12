@@ -1,0 +1,41 @@
+.reklame-block-mobile {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/91baf798ef1e551ef8d4e850c28a0050/razer-edge-1920x700-desktop-cat-banner.jpg) no-repeat center center/cover;
+    height: 80vh;
+} .reklame-block-mobile h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.reklame-block-mobile2 {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/8d15cb8a565e71ef01f047785d22ce69/gothe-extramile-category-1920x700-desktop.jpg) no-repeat center center/cover;
+    height: 80vh;
+    border-bottom: 2px solid  rgb(72, 214, 72);
+} .reklame-block-mobile2 h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.position-btn-all-menu {
+    background: #44d62c;
+border: 2px solid #222;
+border-radius: 10%;
+bottom: 20px;
+cursor: pointer;
+height: 45px;
+position: fixed;
+right: 25px;
+width: 45px;
+} .position-btn-all-menu i {
+    font-size: 30px;
+    color: white;
+} .position-btn-all-menu i:hover {
+    color: white;
+}
+ .link-color {
+    color:  rgb(72, 214, 72);
+    text-decoration: none;
+
+} .link-color:hover {
+    color: #44d62c;
+    text-decoration: none;
+}

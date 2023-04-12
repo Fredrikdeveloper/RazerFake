@@ -1,0 +1,6 @@
+cd my-app
+npm i
+npm i react-use-cart
+npm i react-router-dom
+npm i react-router-hash-link
+npm i react-icons

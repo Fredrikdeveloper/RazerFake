@@ -1,0 +1,247 @@
+.PC-Block {
+    background: #111;
+} .Product-cards {
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 20px;
+} .Product-card {
+    width: 358px;
+    border-bottom: 1px solid rgb(72, 214, 72)  ;
+    background-color:  #111;
+    margin: 50px 0px;
+    max-width: 558px;
+} .Product-card-img img {
+   width: 100%;
+} .Product-card h3 {
+  color: white;
+   font-size: 1.225rem;
+font-weight: 300;
+
+} .Product-card p {
+    font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #6b6d6e;
+} .Product-card > .card-body > a > button {
+    border: none;
+    background: none;
+    background: transparent;
+border: none;
+color: #44d62c;
+cursor: pointer;
+font-family: Razer F5 Regular;
+font-size: 14px;
+} 
+
+.reklame-block2 {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-set-up-1920x700-desktop-cat-banner.jpg) no-repeat center center/cover;
+    height: 70vh;
+    border-bottom: 1px solid rgb(72, 214, 72)  ;
+} .reklame-block2 h2 {
+    font-family: Razer F5;
+    font-size: 1.725em;
+    font-weight: 600;
+    letter-spacing: .0625rem;
+    text-align: center;
+    line-height: 1.875rem;
+    padding-top: 70px;
+    color: white;
+} .reklame-block2 p {
+    color: #999;
+font-family: Razer F5 Regular;
+font-size: 1.1rem;
+font-weight: 300;
+padding: 1rem 0;
+}  .Link-position {
+    display: flex;
+    justify-content: center;
+} .Link-position button {
+    border: none;
+    background: none;
+border: none;
+color: #44d62c;
+cursor: pointer;
+font-family: Razer F5 Regular;
+font-size: 14px;
+
+}
+
+.rek-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+} .reklame-Images {
+    padding: 30px 0px;
+}
+ .rek-block {
+    background: url(./PcImages/reklame-Images1.jpg) no-repeat center center/cover ;
+    height: 630px;
+    width: 530px;
+    border-bottom: 2px solid rgb(72, 214, 72);
+}  .rek-block-white-text {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}  .rek-block-green-text {
+    color: rgb(72, 214, 72);
+    text-align: center;
+}
+.rek-block2 {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mousemats-category-558x587-desktop.jpg) no-repeat center center/cover ;
+    height: 630px;
+    width: 530px;
+    border-bottom: 2px solid rgb(72, 214, 72);
+}  .rek-block h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}  .rek-block h5 {
+    color: rgb(72, 214, 72);
+    text-align: center;
+}
+.rek-block3 {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/keyboards-category-558x587-desktop.jpg) no-repeat center center/cover ;
+    height: 630px;
+    width: 530px;
+    border-bottom: 2px solid rgb(72, 214, 72);
+}  .rek-block h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}  .rek-block h5 {
+    color: rgb(72, 214, 72);
+    text-align: center;
+}
+.rek-block4 {
+    background: url(https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mousemats-category-558x587-desktop.jpg) no-repeat center center/cover ;
+    height: 630px;
+    width: 530px;
+    border-bottom: 2px solid rgb(72, 214, 72);
+}  .rek-block h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}  .rek-block h5 {
+    color: rgb(72, 214, 72);
+    text-align: center;
+}
+
+
+.Pc-bg__img {
+    background: url(./PcImages/PCBack.jpg) no-repeat center center/cover ;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+} .Pc-bg-text h2 {
+    color: rgb(72, 214, 72);
+} .Pc-bg-text p {
+    color: gray;
+} .Pc-bg-text h6 {
+    padding-top: 10px;
+    color: gray;
+} 
+.pos-center {
+    display: flex;
+    justify-content: center;
+}
+.place-need-very {
+    height: 70px;
+}
+
+
+/* .Product-cards {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+} .Product-card {
+    width: 358px;
+    border-bottom: 2px solid rgb(72, 214, 72)  ;
+    background-color: black;
+} .Product-card-img img {
+    width: 358px;
+    height: 358px;
+} */
+.selector-ned {
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+     .Product-cards {
+        grid-gap: 15px;
+    grid-template-columns: repeat(2,1fr);
+}  .Product-card {
+    max-width: 500px;
+    width: 100%;
+    border-bottom: 2px solid rgb(72, 214, 72)  ;
+    background-color: black;
+}
+}
+@media screen and (max-width: 992px) {
+    .Product-cards {
+       grid-gap: 15px;
+   grid-template-columns: repeat(2,1fr);
+   justify-items: center;
+}  .Product-card {
+   max-width: 400px;
+   width: 100%;
+   border-bottom: 2px solid rgb(72, 214, 72)  ;
+   background-color: black;
+}
+.dont-nedd-item {
+    display: none;
+} .selector-ned {
+    display: block;
+} .selector-ned select {
+    background: none;
+    color: gray;
+    border: none;
+    margin: 30px 0px;
+    padding: 20px;
+    font-size: 22px;
+} .selector-ned select option {
+    color: gray;
+    background: none;
+} 
+
+
+
+} 
+@media screen and (max-width: 768px) {
+    .Product-cards {
+       grid-gap: 15px;
+   grid-template-columns: repeat(2,1fr);
+   justify-items: center;
+}  .Product-card {
+   max-width: 330px;
+   width: 100%;
+   border-bottom: 2px solid rgb(72, 214, 72)  ;
+   background-color: black;
+}
+}
+@media screen and (max-width:576px) {
+    .Product-cards {
+       grid-gap: 15px;
+   grid-template-columns: repeat(1,1fr);
+   justify-items: center;
+}  .Product-card {
+   width: 536px;
+   border-bottom: 2px solid rgb(72, 214, 72)  ;
+   background-color: black;
+}
+}
+@media screen and (max-width:320px) {
+    .Product-cards {
+       grid-gap: 15px;
+   grid-template-columns: repeat(1,1fr);
+   justify-items: center;
+}  .Product-card {
+   max-width: 280px;
+   width: 100%;
+   border-bottom: 2px solid rgb(72, 214, 72)  ;
+   background-color: black;
+}
+}

@@ -1,0 +1,80 @@
+.store-all-bg nav a  {
+  color: rgb(147, 147, 147);
+} .store-all-bg nav a:hover  {
+  color: rgb(147, 147, 147);
+}
+.Store-bg {
+    background-color: black;
+} .Store-bg a {
+  text-decoration: none;
+  color: white; 
+  cursor: pointer;
+} .Store-bg h4 {
+  text-align: center;
+} 
+.Store-bg a:hover {
+  text-decoration: none;
+  color: rgb(72, 214, 72); 
+} .place-need-for-ots {
+  margin-top: 80px;
+}
+
+.pr-img-all img {
+  width: 80px;
+  height: 106px;
+}
+.store-last-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+} .store-card {
+  width: 310px;
+  padding: 70px 0px;
+} .store-card-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+} 
+.store-card-img img {
+    width: 70px;
+    height: 70px;
+} .store-card h3 {
+  text-align: center;
+  color: white;
+} .store-card p {
+    text-align: center;
+    color: #a9a8a8;
+    font-family: Razer F5;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .basket-icon-menu-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.basket-icon-menu-text h1{
+  color: #44d62c;
+  font-family: Razer F5 Bold;
+  font-size: 40px;
+} .basket-icon-menu-icon {
+  gap: 10px;
+  display: flex;
+}
+ .basket-icon-menu-icon a {
+  color: white;
+} .basket-icon-menu-icon a:hover {
+  color: white;
+  text-decoration: 1px solid underline white ;
+}
+.store-pr-name {
+  color: white;
+  font-size: 42px;
+}
+.salom{
+  overflow-y: scroll;
+}
+.Keyboard-Group {
+  margin: 100px 0px;
+}

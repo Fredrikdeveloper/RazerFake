@@ -1,0 +1,152 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: black;
+  border-bottom: 1px solid rgb(39, 223, 39);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+} .header nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+} .header a i {
+  font-size: 20px;
+  color: white;
+ } .header a i:hover {
+   color: white;
+ }
+ .header img {
+   width: 30px;
+} nav a {
+  margin: 0 2rem;
+  color: rgb(147, 147, 147);
+  text-decoration: none;
+ 
+  
+}  nav a:hover {
+  color: rgb(147, 147, 147);
+} .btn0-option {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+} .btn0-option img {
+  display: none;
+} 
+.header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 1.8rem;
+}   .nav-input {
+  display: none;
+}   .pricesss {
+  position: relative;
+  right: 5px;
+  border: 2px solid rgb(44, 197, 44);
+  border-radius: 50%;
+  background-color: rgb(30, 202, 30);
+  color: #4f4e4e;
+  text-decoration: none;
+  }
+ 
+
+@media only screen and (max-width: 1024px){
+  .header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  } .header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  .header .responsive_nav {
+    transform: none;
+  }  .basket-visble {
+    display: none;
+  }
+   /* nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+  } */
+  .btn0-option {
+    display: flex;
+    justify-content: space-between;
+  }
+   nav a {
+    font-size: 18px;
+    color: rgb(147, 147, 147);
+    border-bottom: 1px solid rgb(105, 103, 103);
+   width: 90%;
+  }
+  .nav-input {
+    width: 90%;
+    height: 40px;
+    margin-left: 28px;
+    display: block;
+    background: #222;
+    border: 0;
+    border-radius: 10px;
+    font-family: Razer F5 Medium;
+    font-size: 16px;
+    outline: none;
+    padding: 0 18px;
+    color: white;
+
+  } 
+  .btn0-option img {
+    display: block;
+  }  
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

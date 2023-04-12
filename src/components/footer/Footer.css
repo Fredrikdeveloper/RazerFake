@@ -1,0 +1,46 @@
+footer {
+    background-color: rgb(46, 46, 46);
+}
+.footer-menu__first  {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+.footer-menu__first ul li {
+    list-style: none;
+    color: gray;
+    line-height: 30px;
+} .li-trans-color {
+    color: white !important;
+} 
+.footer-menu__first ul  h5 {
+    color: #44d62c;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+} 
+ .footer-line {
+    border-bottom: 2px solid gray;
+}  .footer-icons-line {
+    display: flex;
+    gap: 20px;
+} .footer-icons-line img {
+    width: 30px;
+}
+.footer-last-do-work {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+} .footer-last-do-work h5 {
+    color: #a9a8a8;
+    font-family: Razer F5 Medium!important;
+    font-size: 13px;
+} .bad-text {
+    color: #a5a0a0;
+}
+  .bad-text:hover {
+   text-decoration: 1px solid #fff underline;
+   color: #fff;
+}
+

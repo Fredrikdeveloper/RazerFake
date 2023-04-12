@@ -1,0 +1,59 @@
+.services-block1 {
+    background-color: rgb(29, 28, 28);
+    
+} .green-text {
+    color: rgb(72, 214, 72);
+    text-align: center;
+    padding-top: 50px;
+} .gray-text {
+    color: gray;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+.services-form {
+    background-color: black;
+} .services-form-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px;
+}
+.services-form-menu input {
+    height: 40px;
+    width: 140px;
+    border-radius: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(75, 73, 73);
+    border-bottom-color: gray;
+} .services-form-menu button {
+    height: 40px;
+    padding: 0px 40px;
+    border-radius: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(75, 73, 73);
+    border-bottom-color: gray;
+    color: gray;
+}
+ .services-form-menu input::placeholder {
+    color: gray;
+}
+
+.services-block2 {
+    background: url(./services-images/servicesImgOne.jpg) no-repeat center center/cover;
+    height: 80vh;
+} .title-center {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.services-block3 {
+    background: url(./services-images/servicesImgTwo.jpg) no-repeat center center/cover;
+    height: 80vh;
+}

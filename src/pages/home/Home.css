@@ -1,0 +1,139 @@
+.Home-page-text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+} .need-remove-element {
+    color: white;
+    text-decoration: none;
+} .need-remove-element:hover {
+    color: white;
+}
+ .Home-page span {
+    color:  rgb(72, 214, 72);
+} 
+.Home-page h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 49px;
+} .Home-page h3 {
+    text-align: center;
+    color: white;
+} .btn-style-bg {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+} .btn-style-bg button  {
+    background: #fa9a01;
+    cursor: pointer;
+    text-align: start;
+    width: 100px;
+    height: 65px;
+    border: 3px solid gray;
+    
+} 
+.btn-style-bg button  .str1 {
+    color: #383737;
+    font-size: 12px;
+    padding-left: 5px;
+} .btn-style-bg button .str2 {
+    color: #000;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.place-need-for-ots3 {
+    margin-top: 70px;
+}
+
+
+
+
+
+
+.Home-page-block1 {
+    background: url(./home-images//HomeImgOne.jpg) no-repeat center center/cover;
+    height: 80vh;
+ 
+} .Home-page-block2 {
+    background: url(./home-images/HomeImgTwo.jpg) no-repeat center center/cover;
+    height: 80vh;
+    border-bottom: 9px solid #393838;
+    border-top: 6px solid #393838;
+} .Home-page-block3 {
+    background: url(./home-images/HomeImgThree.jpg) no-repeat center center/cover;
+    height: 80vh;
+    border-bottom: 9px solid #393838;
+} .Home-page-blocks-hard {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} .Home-page-blocks-hard-block1 {
+    background: url(./home-images/HomeImgHardOne.jpg)  no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-right: 6px solid #393838;
+    border-bottom: 9px solid #393838;
+} .Home-page-blocks-hard-block2 {
+    background: url(./home-images/HomeImgHardTwo.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-bottom: 9px solid #393838;
+} .Home-page-blocks-hard-block3 {
+    background: url(./home-images//HomeImgHardThree.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-bottom: 9px solid #393838;
+    border-right: 6px solid #393838;
+} .Home-page-blocks-hard-block4 {
+    background: url(./home-images/HomeImgHardFour.jpg)  no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-bottom: 9px solid #393838;
+} .Home-page-blocks-hard-block5 {
+    background: url(./home-images/HomeImgHardFive.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-bottom: 9px solid #393838;
+    border-right: 6px solid #393838;
+}  .Home-page-blocks-hard-block6 {
+    background: url(./home-images/HomeImgHardSix.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 50%;
+    border-bottom: 9px solid #393838;
+} 
+
+@media screen and (max-width: 950px) {
+    .Home-page-blocks-hard-block1 {
+        background: url(./home-images/HomeImgHardOne.jpg)  no-repeat center center/cover;
+        height: 80vh;
+        width: 100%;
+    } .Home-page-blocks-hard-block2 {
+        background: url(./home-images/HomeImgHardTwo.jpg) no-repeat center center/cover;
+        width: 100%;
+        width: 100%;
+    } .Home-page-blocks-hard-block3 {
+        background: url(./home-images//HomeImgHardThree.jpg) no-repeat center center/cover;
+        height: 80vh;
+        width: 100%;
+    } .Home-page-blocks-hard-block4 {
+        background: url(./home-images/HomeImgHardFour.jpg)  no-repeat center center/cover;
+        height: 80vh;
+        width: 100%;
+    } .Home-page-blocks-hard-block5 {
+        background: url(./home-images/HomeImgHardFive.jpg) no-repeat center center/cover;
+        height: 80vh;
+        width: 100%;
+    }  .Home-page-blocks-hard-block6 {
+        background: url(./home-images/HomeImgHardSix.jpg) no-repeat center center/cover;
+        height: 80vh;
+        width: 100%;
+    } 
+    .Home-page h1 {
+        padding-top: 50px;
+        text-align: center;
+        color: white;
+        font-size: 34px;
+    }
+}
